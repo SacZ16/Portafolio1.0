@@ -1,0 +1,133 @@
+.main{
+    width: calc(100vw - 20px);
+    height: calc(100vh - 60px);
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    transition:background-color 0.5s, color 0.5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.light{
+    background-color: #e0ffff;
+    color: #02041e;
+}
+.dark{
+    background-color: hsl(236, 88%, 6%);
+    color: #e0ffff;
+}
+.configuracion { grid-area: configuracion;}
+.perfil { grid-area: perfil;}
+.calendario { grid-area: calendario;}
+.sobreMi { grid-area: sobreMi;}
+.tecnologias { grid-area: tecnologias;}
+.main section {
+    width: 60vw;
+    display: grid;    
+    grid-template-areas:
+    'configuracion perfil perfil'
+    'sobreMi sobreMi calendario'
+    'tecnologias tecnologias calendario';
+    gap: 10px;
+}
+.carta1{
+    border-radius: 15px;
+    padding: 10px;
+    width: 285px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carta3{
+    border-radius: 15px;
+    padding: 10px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carta2{
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: calc(60vw - 335px);
+    height: 200px;
+}
+.carta5{
+    border-radius: 15px;
+    padding: 10px;
+    width: calc(60vw - 335px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    height: 200px;
+}
+.carta6{
+    border-radius: 15px;
+    padding: 10px;
+    width: calc(60vw - 335px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    height: 200px;
+}
+.carta2 h1{
+    font-size: 45px;
+}
+.contenedorButtonsCarta2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.buttonCarta2{
+    border-radius: 5px;
+    width: calc(100% - 10px);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+.buttonCarta2:hover{
+    background-color: #88e288;
+}
+.carta2 svg{
+    width: 2rem;
+}
+.carta5 svg{
+    width: 2rem;
+}
+.carta6 svg{
+    width: 2rem;
+}
+.banderas{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contenedorDias{
+display: flex;
+}
+.contenedorDias span{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}

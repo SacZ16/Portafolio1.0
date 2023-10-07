@@ -1,0 +1,172 @@
+[
+    {
+        "mes": "Octubre",
+        "mesNumero": 10,
+        "mesAño": 2023,
+        "semana1": [
+            {
+                "dia": 1,
+                "actividad": [
+                    "5hs-Estudiando SQL"
+                ]
+            },
+            {
+                "dia": 2,
+                "actividad": [
+                    "5hs-Estudiando SQL",
+                    "2hs-trabajando de tutor"
+                ]
+            },
+            {
+                "dia": 3,
+                "actividad": [
+                    "3hs-Estudiando SQL",
+                    "2hs-trabajando de tutor"
+                ]
+            },
+            {
+                "dia": 4,
+                "actividad": [
+                    "4hs-Freelancer",
+                    "2hs-trabajando de tutor"
+                ]
+            },
+            {
+                "dia": 5,
+                "actividad": [
+                    "4hs-Portafolio",
+                    "2hs-trabajando de tutor",
+                    "4hs-Aprendiendo portugues"
+                ]
+            },
+            {
+                "dia": 6,
+                "actividad": []
+            },
+            {
+                "dia": 7,
+                "actividad": []
+            }
+        ],
+        "semana2": [
+            {
+                "dia": 8,
+                "actividad": []
+            },
+            {
+                "dia": 9,
+                "actividad": []
+            },
+            {
+                "dia": 10,
+                "actividad": []
+            },
+            {
+                "dia": 11,
+                "actividad": []
+            },
+            {
+                "dia": 12,
+                "actividad": []
+            },
+            {
+                "dia": 13,
+                "actividad": []
+            },
+            {
+                "dia": 14,
+                "actividad": []
+            }
+        ],
+        "semana3": [
+            {
+                "dia": 15,
+                "actividad": []
+            },
+            {
+                "dia": 16,
+                "actividad": []
+            },
+            {
+                "dia": 17,
+                "actividad": []
+            },
+            {
+                "dia": 18,
+                "actividad": []
+            },
+            {
+                "dia": 19,
+                "actividad": []
+            },
+            {
+                "dia": 20,
+                "actividad": []
+            },
+            {
+                "dia": 21,
+                "actividad": []
+            }
+        ],
+        "semana4": [
+            {
+                "dia": 22,
+                "actividad": []
+            },
+            {
+                "dia": 23,
+                "actividad": []
+            },
+            {
+                "dia": 24,
+                "actividad": []
+            },
+            {
+                "dia": 25,
+                "actividad": []
+            },
+            {
+                "dia": 26,
+                "actividad": []
+            },
+            {
+                "dia": 27,
+                "actividad": []
+            },
+            {
+                "dia": 28,
+                "actividad": []
+            }
+        ],
+        "semana5": [
+            {
+                "dia": 29,
+                "actividad": []
+            },
+            {
+                "dia": 30,
+                "actividad": []
+            },
+            {
+                "dia": 31,
+                "actividad": []
+            },
+            {
+                "dia": 1,
+                "actividad": []
+            },
+            {
+                "dia": 2,
+                "actividad": []
+            },
+            {
+                "dia": 3,
+                "actividad": []
+            },
+            {
+                "dia": 4,
+                "actividad": []
+            }
+        ]
+    }
+]
