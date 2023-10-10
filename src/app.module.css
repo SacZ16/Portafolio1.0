@@ -10,25 +10,34 @@
     overflow-y: auto;
 }
 .light{
-    background-color: #e0ffff;
-    color: #02041e;
+    background-color: #c4dafa;
+    color: black;
 }
 .dark{
-    background-color: hsl(236, 88%, 6%);
-    color: #e0ffff;
+    background-color: #23272a;
+    color: white;
+}
+.darkh1{
+    color: #056c17;
+}
+.lighth1{
+    color: #96D57A;
 }
 .configuracion { grid-area: configuracion;}
 .perfil { grid-area: perfil;}
 .calendario { grid-area: calendario;}
 .sobreMi { grid-area: sobreMi;}
 .tecnologias { grid-area: tecnologias;}
+.habilidades { grid-area: habilidades;}
+.historial { grid-area: historial;}
 .main section {
     width: 60vw;
     display: grid;    
     grid-template-areas:
-    'configuracion perfil perfil'
-    'sobreMi sobreMi calendario'
-    'tecnologias tecnologias calendario';
+    'configuracion perfil perfil perfil'
+    'sobreMi sobreMi sobreMi calendario'
+    'tecnologias tecnologias habilidades calendario'
+    'historial historial historial historial';
     gap: 10px;
 }
 .carta1{
@@ -46,8 +55,9 @@
     padding: 10px;
     width: 285px;
     display: flex;
+    padding: 5px;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:start;
     align-items: center;
 }
 .carta2{
@@ -64,7 +74,6 @@
 .carta5{
     border-radius: 15px;
     padding: 10px;
-    width: calc(60vw - 335px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +84,6 @@
 .carta6{
     border-radius: 15px;
     padding: 10px;
-    width: calc(60vw - 335px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +91,29 @@
     gap: 10px;
     height: 200px;
 }
+.carta7{
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    height: 200px;
+}
+.carta8{
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
 .carta2 h1{
+    font-size: 45px;
+}
+.carta8 h1{
     font-size: 45px;
 }
 .contenedorButtonsCarta2{
@@ -129,5 +159,108 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.contenedorMes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedorMes span{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.darkborder span{
+    border: 1px solid #00004e;
+}
+.lightborder span{
+    border: 1px solid #b2e2f2;
+}
+.contenedorActividades{
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.contenedorActividades div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contenedorActividades p{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorTecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedorTecnologias div{
+    padding: 5px;
+    border-radius: 10px;
+}
+.botonesDissabled{
+    background-color: #00004e;
+
+}
+.contenedorTecnologias svg{
+    border-radius: 5px;
+}
+.contenedorTecnologias div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.lightsvgdiv{
+    background-color:#c4dafa ;
+    color: black;
+}
+.lightsvgdivespecial{
+    background-color:#c4dafa ;
+    color: black;
+}
+.lightsvgdiv svg{
+    background-color: #c4dafa;
+}
+.lightsvgdivespecial svg{
+    background-color: #23272a;
+}
+.darksvgdiv{
+    background-color: #23272a;
+    color: white;
+}
+.darksvgdivespecial{
+    background-color: #23272a;
+    color: white;
+}
+.darksvgdiv svg{
+    background-color: #c4dafa;
+}
+.darksvgdivespecial svg{
+    background-color: #23272a;
+}
+.contenedorTrabajo{
+    display: flex;
+    gap: 20px;
+
+}
+.contenedorTrabajoinfo{    
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 5px;
+}
+.contenedorTrabajoinfo h3,
+.contenedorTrabajoinfo h4,
+.contenedorTrabajoinfo h5
+{
+margin: 0;
 }

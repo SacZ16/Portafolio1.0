@@ -14,48 +14,64 @@
                 "dia": 2,
                 "actividad": [
                     "5hs-Estudiando SQL",
-                    "2hs-trabajando de tutor"
+                    "2hs-Trabajando de tutor"
                 ]
             },
             {
                 "dia": 3,
                 "actividad": [
                     "3hs-Estudiando SQL",
-                    "2hs-trabajando de tutor"
+                    "2hs-Trabajando de tutor"
                 ]
             },
             {
                 "dia": 4,
                 "actividad": [
                     "4hs-Freelancer",
-                    "2hs-trabajando de tutor"
+                    "2hs-Trabajando de tutor"
                 ]
             },
             {
                 "dia": 5,
                 "actividad": [
                     "4hs-Portafolio",
-                    "2hs-trabajando de tutor",
+                    "2hs-Trabajando de tutor",
                     "4hs-Aprendiendo portugues"
+                    
                 ]
             },
             {
                 "dia": 6,
-                "actividad": []
+                "actividad": [
+                    "1hs-Portafolio",
+                    "5hs-Trabajando freelancer",
+                    "2hs-Aprendiendo portugues"
+                ]
             },
             {
                 "dia": 7,
-                "actividad": []
+                "actividad": [
+                    "6hs-Trabajando freelancer",
+                    "2hs-Aprendiendo portugues"
+                ]
             }
         ],
         "semana2": [
             {
                 "dia": 8,
-                "actividad": []
+                "actividad": [
+                    "6hs-Trabajando freelancer",
+                    "2hs-Aprendiendo portugues",
+                    "2hs-Aprendiendo ingles"
+                ]
             },
             {
                 "dia": 9,
-                "actividad": []
+                "actividad": [
+                    "4hs-Portafolio",
+                    "2hs-Trabajando de tutor",
+                    "4hs-Aprendiendo ingles"
+                ]
             },
             {
                 "dia": 10,
@@ -165,6 +181,168 @@
             },
             {
                 "dia": 4,
+                "actividad": []
+            }
+        ]
+    },
+    {
+        "mes": "Noviembre",
+        "mesNumero": 11,
+        "mesAño": 2023,
+        "semana1": [
+            {
+                "dia": 29,
+                "actividad": [
+                ]
+            },
+            {
+                "dia": 30,
+                "actividad": [
+                ]
+            },
+            {
+                "dia": 31,
+                "actividad": [
+                ]
+            },
+            {
+                "dia": 1,
+                "actividad": [
+                ]
+            },
+            {
+                "dia": 2,
+                "actividad": [
+                ]
+            },
+            {
+                "dia": 3,
+                "actividad": [
+                ]
+            },
+            {
+                "dia": 4,
+                "actividad": [
+                ]
+            }
+        ],
+        "semana2": [
+            {
+                "dia": 5,
+                "actividad": []
+            },
+            {
+                "dia": 6,
+                "actividad": []
+            },
+            {
+                "dia": 7,
+                "actividad": []
+            },
+            {
+                "dia": 8,
+                "actividad": []
+            },
+            {
+                "dia": 9,
+                "actividad": []
+            },
+            {
+                "dia": 10,
+                "actividad": []
+            },
+            {
+                "dia": 11,
+                "actividad": []
+            }
+        ],
+        "semana3": [
+            {
+                "dia": 12,
+                "actividad": []
+            },
+            {
+                "dia": 13,
+                "actividad": []
+            },
+            {
+                "dia": 14,
+                "actividad": []
+            },
+            {
+                "dia": 15,
+                "actividad": []
+            },
+            {
+                "dia": 16,
+                "actividad": []
+            },
+            {
+                "dia": 17,
+                "actividad": []
+            },
+            {
+                "dia": 18,
+                "actividad": []
+            }
+        ],
+        "semana4": [
+            {
+                "dia": 19,
+                "actividad": []
+            },
+            {
+                "dia": 20,
+                "actividad": []
+            },
+            {
+                "dia": 21,
+                "actividad": []
+            },
+            {
+                "dia": 22,
+                "actividad": []
+            },
+            {
+                "dia": 23,
+                "actividad": []
+            },
+            {
+                "dia": 24,
+                "actividad": []
+            },
+            {
+                "dia": 25,
+                "actividad": []
+            }
+        ],
+        "semana5": [
+            {
+                "dia": 26,
+                "actividad": []
+            },
+            {
+                "dia": 27,
+                "actividad": []
+            },
+            {
+                "dia": 28,
+                "actividad": []
+            },
+            {
+                "dia": 29,
+                "actividad": []
+            },
+            {
+                "dia": 30,
+                "actividad": []
+            },
+            {
+                "dia": 1,
+                "actividad": []
+            },
+            {
+                "dia": 2,
                 "actividad": []
             }
         ]
